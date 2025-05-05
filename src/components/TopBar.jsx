@@ -19,7 +19,7 @@ const TopBar = () => {
     <div className="bg-white p-4 flex justify-between items-center shadow-md">
       <Link to="/dashboard">
         <img
-          src="/assets/dave_medlogo.png"
+          src={process.env.PUBLIC_URL + "/assets/dave_medlogo.png"}
           alt="DavMed Logo"
           className="w-16 bg-white p-2 rounded"
         />

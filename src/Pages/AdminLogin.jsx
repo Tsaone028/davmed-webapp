@@ -37,7 +37,7 @@ function AdminLogin() {
         <div className="flex flex-col items-center mb-6">
           {/* Logo */}
           <img
-            src="/assets/dave_medlogo.png"
+            src={process.env.PUBLIC_URL + "/assets/dave_medlogo.png"}
             alt="DavMed Logo"
             className="h-24 mb-2"
           />
