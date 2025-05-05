@@ -7,11 +7,11 @@ import AdminLogin from "./Pages/AdminLogin";
 import AddDoctor from "./Pages/AddDoctor";
 import ViewDoctors from "./Pages/ViewDoctors";
 import Reports from "./Pages/Reports";
-import AdminLayout from "./components/AdminLayout"; // 👈 Layout wrapper
+import AdminLayout from "./components/AdminLayout";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/davmed-webapp">
       <Routes>
         <Route path="/" element={<AdminLogin />} />
         <Route
